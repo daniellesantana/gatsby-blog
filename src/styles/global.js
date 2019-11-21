@@ -49,6 +49,23 @@ const GlobalStyles = createGlobalStyle`
   border-collapse: collapse;
   border-spacing: 0;
   }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    background: #16202c;
+    line-height: 1;
+    font-size: 100%;
+    font-family: --apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+
+  img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
 `
 
 export default GlobalStyles;
