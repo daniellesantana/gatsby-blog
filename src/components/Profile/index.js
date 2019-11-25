@@ -29,9 +29,8 @@ const Profile = () => {
           {title}
           <S.ProfilePostiion>{position}</S.ProfilePostiion>
         </S.ProfileAutor>
-        <h2>{position}</h2>
+        <S.ProfileDescription>{description}</S.ProfileDescription>
       </ S.ProfileLink>
-      <S.ProfileDescription>{description}</S.ProfileDescription>
     </S.ProfileWrapper>
   )
 }
